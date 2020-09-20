@@ -1,0 +1,198 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.kitch-image {
+  background: url(homepage.jpg) no-repeat center;
+  background-size: cover;
+  height: 500px;
+  position: relative;
+}
+
+.kitch-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+
+}
+
+.container img {
+  width: 100%;
+  height: auto;
+}
+
+.container .btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #f1f1f1;
+  color: black;
+  font-size: 16px;
+  padding: 16px 30px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+header {
+  text-align: right center;
+  text-transform: uppercase;
+  height: 100px;
+  width: 500px;
+}
+ .carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+.container {
+  position: relative;
+  
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 9px;
+  color: white;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  opacity: 1;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background: #f1f1f1;
+  color: black;
+}
+
+.navbar a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.main {
+  padding: 16px;
+  margin-bottom: 30px;
+}
+.card-body{
+  background-color: black;
+  text-align: center;
+  color: white;
+}
+.bb-image {
+  background: url(boeufbourguignon2.jpg) no-repeat center;
+  background-size: cover;
+  height: 500px;
+  position: relative;
+}
+
+
+.bb-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.Ratatouille-image{
+  background: url(ratatouille1.jpg) no-repeat center;
+  background-size: cover;
+  height: 500px;
+  position: relative;
+}
+.Ratatouille-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+.Chicken-image{
+  background: url(roastedchicken2.jpg) no-repeat center;
+  background-size: cover;
+  height: 500px;
+  position: relative;
+}
+.Chicken-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+.lasagna-image{
+  background: url(expresslasagne.jpg) no-repeat center;
+  background-size: cover;
+  height: 500px;
+  position: relative;
+}
+.lasagna-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
